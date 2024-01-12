@@ -59,8 +59,8 @@ export default function Home() {
       </div>
       <Lottie { ...defaultOptions } className="absolute top-1/2 transform -translate-y-1/2 lg:translate-x-[20%]" /> 
       <div className='absolute w-[100%] lg:w-[40%] text-center top-[85%] transform -translate-y-[85%] sm:top-[90%] lg:top-[60%]'>
-          <button className='mx-4 bg-green-200 hover:bg-white px-4 py-2 border shadow-xl rounded-full'>Sign In</button>
-          <button className='mx-4 bg-green-500 hover:bg-white px-4 py-2 border shadow-xl rounded-full'>Sign Up</button>
+          <button className='mx-4 font-bold bg-green-300 hover:bg-white px-10 py-2 lg:py-4 border shadow-xl rounded-full'>Get Started!</button>
+          {/* <button className='mx-4 bg-green-500 hover:bg-white px-4 py-2 border shadow-xl rounded-full'>Sign Up</button> */}
       </div>
     </main> 
   )
