@@ -17,8 +17,7 @@ export default function Home() {
 
 
   return (
-    // flex min-h-screen flex-col  justify-between p-24 
-    <main className="py-8 sm:py-4 relative h-screen min-w-screen xl:bg-green-500 overflow-hidden flex flex-col lg:flex-row">
+    <main className="py-8 sm:py-4 relative h-screen min-w-screen overflow-hidden flex flex-col lg:flex-row">
       <div className='text-center lg:my-[8%] lg:w-[40%]'>
         <h1 className="inline-block font-bold text-lg lg:text-xl xl:text-2xl">Flour Mill Errror Reporting Application</h1>
         <div className='lg:block xl:block hidden mt-8'>
@@ -66,4 +65,3 @@ export default function Home() {
     </main> 
   )
 }
-//lg:-translate-x-[20%] lg:left-[15%] -translate-x-[50%] -translate-x-[50%]
