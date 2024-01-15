@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
     "@types/react-lottie": "^1.2.10",
     "axios": "^1.6.5",
     "lottie-react": "^2.4.0",
